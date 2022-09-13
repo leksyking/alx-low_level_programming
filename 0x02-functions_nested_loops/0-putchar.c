@@ -8,7 +8,11 @@
 int main(void)
 {
 	char *ch = "_putchar";
-	_putchar(*ch);
+	while (*ch)
+	{
+		_putchar(*ch);
+		ch++;
+	}
 	_putchar('\n');
 	return (0);
 }
