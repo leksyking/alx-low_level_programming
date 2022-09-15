@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * isdigit - function to check for a digit
+ * _isdigit - function to check for a digit
  *
  * @c: parameter
  * Return: 1if c is a digit or 0 if not
