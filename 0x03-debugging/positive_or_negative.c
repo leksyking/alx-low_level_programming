@@ -8,12 +8,12 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - Entry point
- *
+ * positive_or_negative - function to check the signs of numbers
+ * @int: argument
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int positive_or_negative(int)
 {
 	int n;
 
