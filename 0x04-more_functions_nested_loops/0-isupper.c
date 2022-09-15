@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
  * _isupper - function to check for upper case
@@ -9,5 +10,12 @@
 
 int _isupper(int c)
 {
-
+	if (isupper(c))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
