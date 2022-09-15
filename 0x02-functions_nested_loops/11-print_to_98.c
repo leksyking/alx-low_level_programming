@@ -1,24 +1,34 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - function to print from n t0 98
- *
- * @n: argument
- *
- */
+  * print_to_98 - is a function that runs numbers till 98
+  *
+  * @n: takes in int n and checks
+  *
+  */
 void print_to_98(int n)
 {
-	int i;
-
-	for (i = n; i <= 98; i++)
+	if ((n > 98) || (n == 98))
 	{
-		if (i == 98)
+		while (n >= 98)
 		{
-			printf("%d ", i);
-		}
-		else
-		{
-			printf("%d, ", i);
+			if (n == 98)
+				printf("%d", n);
+			else
+				printf("%d, ", n);
+			n--;
 		}
 	}
+	else if ((n < 98) || (n == 98))
+	{
+		while (n <= 98)
+		{
+			if (n == 98)
+				printf("%d", n);
+			else
+				printf("%d, ", n);
+			n++;
+		}
+	}
+	putchar(10);
 }
