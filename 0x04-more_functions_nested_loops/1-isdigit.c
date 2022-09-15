@@ -6,7 +6,7 @@
  * @c: parameter
  * Return: 1if c is a digit or 0 if not
  */
-int isdigit(int c)
+int _isdigit(int c)
 {
 	if (isdigit(c))
 	{
