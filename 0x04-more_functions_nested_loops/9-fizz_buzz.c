@@ -18,6 +18,11 @@ int main(void)
 			printf("\n");
 			return (0);
 		}
+		else if (((i % 5) == 0 && ((i % 3) == 0)))
+		{
+			n = "FizzBuzz";
+			printf("%s ", n);
+		}
 		if ((i % 3) == 0)
 		{
 			n = "Fizz";
@@ -26,11 +31,6 @@ int main(void)
 		else if ((i % 5) == 0)
 		{
 			n = "Buzz";
-			printf("%s ", n);
-		}
-		else if (((i % 5) == 0) && ((i % 3) == 0))
-		{
-			n = "FizzBuzz";
 			printf("%s ", n);
 		}
 		else
