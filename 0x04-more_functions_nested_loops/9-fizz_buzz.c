@@ -23,7 +23,7 @@ int main(void)
 			n = "FizzBuzz";
 			printf("%s ", n);
 		}
-		if ((i % 3) == 0)
+		else if ((i % 3) == 0)
 		{
 			n = "Fizz";
 			printf("%s ", n);
