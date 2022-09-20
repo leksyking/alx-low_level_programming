@@ -1,14 +1,14 @@
 #include "main.h"
 
-/** 
+/**
  * puts_half - function that prints half of a string
  *
  * @str: parameter
  */
 void puts_half(char *str)
 {
-	int len, n, i;
-	
+	int n, i, len;
+
 	len = 0;
 	while (str[len] != '\0')
 	{
