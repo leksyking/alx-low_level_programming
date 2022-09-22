@@ -11,7 +11,7 @@ char *string_toupper(char *str)
 {
 	int i, n;
 
-	for (n = 0, str[n] != '\0'; n++)
+	for (n = 0; str[n] != '\0'; n++)
 	{
 	}
 	for (i = 0; i < n; i++)
