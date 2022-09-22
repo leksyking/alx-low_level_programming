@@ -15,7 +15,7 @@ char *cap_string(char *str)
 	{
 		if (str[0] <= 122 && str[0] >= 97)
 		{
-			 str[0] = str[0] - 32;
+			str[0] = str[0] - 32;
 		}
 		if (str[i] == 32 || str[i] == 46 || str[i] == '\t' ||
 			str[i] == '\n' || str[i] == 44 || str[i] == 59 ||
@@ -27,7 +27,7 @@ char *cap_string(char *str)
 				s[i + 1] = s[i + 1] - 32;
 			}
 		}
-		i++;
+	i++;
 	}
 	return (s);
 }
