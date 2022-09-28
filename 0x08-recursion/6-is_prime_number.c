@@ -12,7 +12,7 @@ int prime(int a, int b)
 {
 	if (a == b)
 		return (1);
-	else if (a % b == 2)
+	else if (a % b == 0)
 		return (0);
 	return (prime(a, b + 1));
 }
