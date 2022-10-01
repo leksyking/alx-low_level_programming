@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 #include <ctype.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -13,7 +14,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, j, sum = 0;
+	int i, j, length, sum = 0;
+	char *ptr;
 
 	if (argc == 1 || argc == 2)
 	{
@@ -22,7 +24,10 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		for (j = 1; j < argc; j++)
+		ptr = argv[i];
+		length = strlen(ptr);
+
+		for (j = 0; j < length; j++)
 		{
 			if (isdigit(*argv[j]) == 0)
 			{
