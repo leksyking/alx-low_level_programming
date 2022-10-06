@@ -16,12 +16,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int m, k, i, j = 0, l;
 	char *ptr;
 
-	m = strlen(s1);
-	k = strlen(s2);
 	if (s2 == NULL)
 		s2 = "";
 	if (s1 == NULL)
 		s1 = "";
+	m = strlen(s1);
+	k = strlen(s2);
 	if (n >= k)
 		l = m + k;
 	else if (n < k)
