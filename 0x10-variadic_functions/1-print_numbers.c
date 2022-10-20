@@ -12,10 +12,16 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
+<<<<<<< HEAD
 	unsigned int i, x;
 	va_list(args);
 
 	
+=======
+	va_list args;
+	unsigned int i, x;
+
+>>>>>>> b4107e20bbd346700ef3ddb45d2e830e1eccce5f
 	va_start(args, n);
 
 	for (i = 0; i < n; i++)
