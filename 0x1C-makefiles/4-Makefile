@@ -1,7 +1,7 @@
 # 2-Makefile
 
 # Setting variables
-CC = gcc
+CC = gcc -Wall -Werror -Wextra -pedantic
 SRC = main.c school.c
 NAME = school
 OBJ = $(SRC:.c=.o) # Substitution References
