@@ -30,4 +30,4 @@ oclean:
 fclean: clean oclean
 
 # Forces recompilation of all source files
-re: ocschool
+re: fclean all
