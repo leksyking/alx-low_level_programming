@@ -1,5 +1,5 @@
-#0 Makefile
+# 0 Makefile
 
-# Rule all: Builds "school" executable
+# Rule all: Builds "school" executable file
 all:
 	gcc main.c school.c -o school
