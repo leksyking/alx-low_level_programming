@@ -1,0 +1,9 @@
+# 1-makefile
+
+# Variables
+CC = gcc
+SRC = main.c school.c
+
+# Rule all: builds the school executable file
+all:
+	$(CC) $(SRC) -o school
